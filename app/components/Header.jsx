@@ -22,9 +22,9 @@ export default function Header() {
         <nav className="flex items-center lg:item-start justify-between gap-x-6">
           <Link
             href="/"
-            className="relative lg:text-4xl text-3xl font-black tracking-tighter text-transparent uppercase bg-clip-text bg-gradient-to-br from-yellow-400 to-yellow-700"
+            className="relative lg:text-4xl text-3xl font-black tracking-tighter text-transparent uppercase bg-clip-text bg-gradient-to-br from-white-400 to-white-700"
           >
-            <h1 className="text-dm">Supawatch</h1>
+            <h1 className="text-dm">streamx</h1>
           </Link>
           <button
             onClick={() => setMobileMenuOpen(true)}
