@@ -22,7 +22,7 @@ export default function Header() {
         <nav className="flex items-center lg:item-start justify-between gap-x-6">
           <Link
             href="/"
-            className="bg-gradient-to-br from-white to-neutral-300"
+            className="relative lg:text-4xl text-3xl font-black tracking-tighter text-transparent uppercase bg-clip-text bg-gradient-to-br from-white to-neutral-300"
           >
             <h1 className="text-dm">streamx</h1>
           </Link>
