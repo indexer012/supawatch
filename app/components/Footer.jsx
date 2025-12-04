@@ -33,9 +33,8 @@ export default function Footer(params) {
         <div className="basis-1/3 space-y-2">
           <Link
             href="/"
-            className="relative lg:text-4xl text-2xl font-black tracking-tighter text-transparent uppercase bg-clip-text bg-gradient-to-br from-yellow-400 to-yellow-700 text-dm"
-          >
-            Supawatch
+            className="relative lg:text-4xl text-3xl font-black tracking-tighter text-transparent uppercase bg-clip-text bg-gradient-to-br from-white to-neutral-300">
+            Streamx
           </Link>
           <p className="text-neutral-400 font-medium">
             Explore a cinematic universe like never before with our movie site.
