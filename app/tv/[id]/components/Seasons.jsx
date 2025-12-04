@@ -123,7 +123,7 @@ export default function Seasons(props) {
 
                             <iframe
                               className="w-full h-full"
-                              src={`https://vidsrcme.ru/embed/tv?tmdb=${id}&season=${item.season_number}&episode=${item.episode_number}?autoPlay=false`}
+                              src={`https://cinetaro.buzz/src/player/sub.php?id=${id}-${item.season_number}-${item.episode_number}&server=upcloud&embed=true&ep=1&skip=true`}
                               allowFullScreen
                             ></iframe>
                           </Dialog.Panel>
