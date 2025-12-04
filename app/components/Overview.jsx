@@ -1,8 +1,8 @@
 "use client";
 
-import { PlayIcon, RectangleGroupIcon } from "@heroicons/react/24/solid";
+import { PlayIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
-import { Fragment, useRef, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function Overview() {
   const [data, setData] = useState(null);
@@ -118,13 +118,6 @@ export default function Overview() {
                       >
                         <span>Watch Now</span>
                         <PlayIcon className="w-5 h-5" />
-                      </Link>
-                      <Link
-                        href={`/movie/${item.id}`}
-                        className="lg:px-6 p-4 lg:text-base text-sm backdrop-blur bg-white/10 font-semibold rounded-full tracking-tight flex items-center justify-center gap-2 w-full"
-                      >
-                        <span>More Details</span>
-                        <RectangleGroupIcon className="w-5 h-5" />
                       </Link>
                     </div>
                   </div>
